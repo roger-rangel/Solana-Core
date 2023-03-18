@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import AddressForm from '../components/AddressForm'
+import * as web3 from '@solana/web3.js'
 
 const Home: NextPage = () => {
   const [balance, setBalance] = useState(0)
